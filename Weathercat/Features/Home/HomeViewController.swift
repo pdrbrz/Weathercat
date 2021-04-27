@@ -22,8 +22,9 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let homeView = HomeView()
-        view = homeView
+        let homeView = HomeView(frame: .zero)
+        view.addSubview(homeView)
+        homeView.constraintsToSuperview()
     }
 }
 

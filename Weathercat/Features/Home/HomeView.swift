@@ -16,8 +16,9 @@ extension HomeView {
 public final class HomeView: UIView {
     
     // Mark: - INIT
-    init() {
-        super.init(frame: UIScreen.main.bounds);
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        translatesAutoresizingMaskIntoConstraints = false
         setup()
     }
 

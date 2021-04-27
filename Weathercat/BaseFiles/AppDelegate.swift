@@ -12,17 +12,6 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //Create a window that is the same size as the screen
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        // Create a view controller
-        let viewModel = HomeViewModel()
-        let homeViewController = HomeViewController(viewModel: viewModel)
-        // Assign the view controller as `window`'s root view controller
-        
-        let navigationController = UINavigationController(rootViewController: homeViewController)
-        window.rootViewController = navigationController
-        // Show the window
-        window.makeKeyAndVisible()
         return true
     }
 
