@@ -22,9 +22,8 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let homeView = HomeView()
+        view = homeView
     }
-
-
 }
 
