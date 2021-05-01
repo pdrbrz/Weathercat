@@ -1,13 +1,13 @@
 //
-//  WeathercatUITests.swift
-//  WeathercatUITests
+//  WeatherCatsUITests.swift
+//  WeatherCatsUITests
 //
-//  Created by Pedro Braz on 26/04/21.
+//  Created by Pedro Braz on 01/05/21.
 //
 
 import XCTest
 
-class WeathercatUITests: XCTestCase {
+class WeatherCatsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
